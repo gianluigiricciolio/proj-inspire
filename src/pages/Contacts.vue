@@ -3,17 +3,13 @@ import TitlePage from "../components/TitlePage.vue";
 import Separator from "../components/Separator.vue";
 import ContactsCard from "../components/ContactsCard.vue";
 import ContactsMap from "../components/ContactsMap.vue";
-import ContactsMessage from "../components/ContactsMessage.vue";
-import PartnerSection from "../components/PartnerSection.vue";
 
 export default {
   components: {
     TitlePage,
     Separator,
     ContactsCard,
-    ContactsMap,
-    ContactsMessage,
-    PartnerSection,
+    ContactsMap
   },
 };
 </script>
@@ -28,11 +24,6 @@ export default {
     <!-- info card -->
     <ContactsCard />
   </div>
-
-  <!-- send message -->
-  <ContactsMessage />
-  <!-- submit + partner -->
-  <PartnerSection />
 </template>
 
 <style scoped>

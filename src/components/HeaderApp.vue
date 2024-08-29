@@ -23,35 +23,20 @@ export default {
             </div>
         </div>
         <div class="header-content">
-            <div class="container py-4 position-relative d-flex justify-content-between align-items-center">
+            <div class="container py-2 d-flex justify-content-between align-items-center">
                 <div class="logo">
-                    <img draggable="false"
-                        src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/cropped-Group-39@2x.png"
-                        alt="">
+                    <img draggable="false" src="../assets/img/logo.png" alt="">
                 </div>
-                <div class="sections d-flex gap-5 align-items-center">
+                <div class="sections d-flex align-items-center">
                     <router-link activeClass="fw-bold" class="link" :to="{ name: 'home' }">
                         <span>HOME</span>
                     </router-link>
                     <router-link activeClass="fw-bold" class="link" :to="{ name: 'about' }">
-                        <span>ABOUT</span>
-                    </router-link>
-                    <router-link class="link">
-                        <span>SERVICES</span>
-                    </router-link>
-                    <router-link class="link">
-                        <span>SHOWCASE</span>
-                    </router-link>
-                    <router-link class="link">
-                        <span>BLOG</span>
+                        <span>PRODOTTI</span>
                     </router-link>
                     <router-link activeClass="fw-bold" class="link" :to="{ name: 'contacts' }">
-                        <span>CONTACTS</span>
+                        <span>CONTATTI</span>
                     </router-link>
-                </div>
-                <div class="actions d-flex align-items-center">
-                    <div class="button">PURCHASE</div>
-                    <font-awesome-icon class="clickable secondary-color ps-4" icon="fa-solid fa-magnifying-glass" />
                 </div>
             </div>
 
@@ -64,6 +49,12 @@ export default {
 
 * {
     user-select: none;
+}
+
+.logo {
+    img {
+        height: 80px;
+    }
 }
 
 .main-container {
@@ -102,14 +93,13 @@ export default {
 
 .sections {
     // HO USATO QUESTO STILE PER CENTRARE PERFETTAMENTE LA SEZIONE CENTRALE AL CENTRO DEL PADRE A PRESCINDERE DELLA GRANDEZZA DEGLI ALTRI DUE ELEMENTI
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
     font-size: small;
 
     .link {
         text-decoration: none;
         color: #3D3D3D;
+        font-size: 1.3em;
+        margin-left: 60px;
 
         &:hover {
             color: $secondary-text-color !important;
