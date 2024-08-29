@@ -1,0 +1,11 @@
+// importo bootstrap
+@use "bootstrap/scss/bootstrap" as *;
+// importo tutte le partials nel main.scss
+@use "./partials/reset" as *;
+@use "./partials/variables" as *;
+@use "./partials/mixin" as *;
+@use "./partials/utilites" as *;
+@use "./partials/typography" as *;
+@use "./partials/commons" as *;
+// importo font
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
