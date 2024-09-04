@@ -30,42 +30,6 @@ export default {
   <section>
     <HomeCarousel />
   </section>
-
-  <!--we are-->
-  <section>
-    <HomeInfoCard />
-  </section>
-
-  <!--learn more-->
-  <section>
-    <HomeOurMission />
-  </section>
-
-  <!--past projects-->
-  <section>
-    <HomePastProjects />
-  </section>
-
-  <!--we love-->
-  <section>
-    <HomeStatistics />
-  </section>
-
-  <!--support-->
-  <section>
-    <HomeSupport />
-  </section>
-
-  <!--reviews-->
-  <section>
-    <HomeReviews />
-  </section>
-
-  <!--blog-->
-  <HomeNews />
-
-  <!--partners-->
-  <PartnerSection />
 </template>
 
 <style scoped lang="scss">

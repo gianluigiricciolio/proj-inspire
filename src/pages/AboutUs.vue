@@ -18,5 +18,5 @@ export default {
 </script>
 
 <template>
-    <TitlePage :titlePage="'About Page'"></TitlePage>
+    <TitlePage :titlePage="'Prodotti'"></TitlePage>
 </template>

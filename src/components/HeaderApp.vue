@@ -66,7 +66,7 @@ export default {
 }
 
 .header-contacts {
-    background-color: $primary-color;
+    background-color: $secondary-color;
     color: white;
     padding: 10px 37px;
 
