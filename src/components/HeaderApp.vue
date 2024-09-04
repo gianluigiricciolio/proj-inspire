@@ -25,13 +25,15 @@ export default {
         <div class="header-content">
             <div class="container py-2 d-flex justify-content-between align-items-center">
                 <div class="logo">
-                    <img draggable="false" src="../assets/img/logo.png" alt="">
+                    <router-link class="nav-link" :to="{ name: 'home' }">
+                        <img draggable="false" src="../assets/img/logo.png" alt="">
+                    </router-link>
                 </div>
                 <div class="sections d-flex align-items-center">
                     <router-link activeClass="fw-bold" class="link" :to="{ name: 'home' }">
                         <span>HOME</span>
                     </router-link>
-                    <router-link activeClass="fw-bold" class="link" :to="{ name: 'about' }">
+                    <router-link activeClass="fw-bold" class="link" :to="{ name: 'projects' }">
                         <span>PRODOTTI</span>
                     </router-link>
                     <router-link activeClass="fw-bold" class="link" :to="{ name: 'contacts' }">
