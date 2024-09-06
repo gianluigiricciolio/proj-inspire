@@ -1,12 +1,12 @@
 <script>
 import Separator from './Separator.vue';
-import OurTeamCardList from './OurTeamCardList.vue'
+import OurProductsCardList from './OurProductsCardList.vue'
 
 export default {
-    name: 'OutTeam',
+    name: 'OurProducts',
     components: {
         Separator,
-        OurTeamCardList,
+        OurProductsCardList,
     }
 }
 </script>
@@ -14,14 +14,7 @@ export default {
 <template>
     <div class="main-container">
         <div class="container d-flex flex-column gap-5 align-items-center">
-            <div class="h2 text-center">
-                Get to know
-            </div>
-            <div class="h2 secondary-color text-center">
-                our team
-            </div>
-            <Separator></Separator>
-            <OurTeamCardList></OurTeamCardList>
+            <OurProductsCardList></OurProductsCardList>
         </div>
     </div>
 </template>

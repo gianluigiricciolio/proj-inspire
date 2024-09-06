@@ -19,7 +19,7 @@ export default {
 @use '../assets/scss/partials/_variables.scss' as *;
 
 .background {
-    padding: 50px;
+    padding: 20px;
     background-color: $section-color;
     color: $secondary-color;
 }

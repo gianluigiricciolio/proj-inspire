@@ -33,7 +33,7 @@ export default {
                     <router-link activeClass="fw-bold" class="link" :to="{ name: 'home' }">
                         <span>HOME</span>
                     </router-link>
-                    <router-link activeClass="fw-bold" class="link" :to="{ name: 'projects' }">
+                    <router-link activeClass="fw-bold" class="link" :to="{ name: 'products' }">
                         <span>PRODOTTI</span>
                     </router-link>
                     <router-link activeClass="fw-bold" class="link" :to="{ name: 'contacts' }">

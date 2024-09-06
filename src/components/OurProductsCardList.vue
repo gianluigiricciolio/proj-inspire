@@ -1,26 +1,26 @@
 <script>
-import OurTeamCard from './OurTeamCard.vue';
+import OurProductsCard from './OurProductsCard.vue';
 
 import { store } from '../store.js'
 
 export default {
-    name: 'OurTeamCardList',
+    name: 'OurProductsCardList',
     data() {
         return {
             store
         }
     },
     components: {
-        OurTeamCard
+        OurProductsCard
     }
 }
 </script>
 
 <template>
     <div class="container">
-        <div class="row row-cols-3 g-3 ">
+        <div class="row row-cols-2 g-3">
             <div class="col" v-for="card in store.cardInfo">
-                <OurTeamCard :card="card"></OurTeamCard>
+                <OurProductsCard :card="card"></OurProductsCard>
             </div>
         </div>
     </div>

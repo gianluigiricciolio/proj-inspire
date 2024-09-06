@@ -1,4 +1,5 @@
 <script>
+import OurProducts from '../components/OurProducts.vue';
 import Separator from '../components/Separator.vue';
 import TitlePage from '../components/TitlePage.vue';
 
@@ -10,7 +11,8 @@ export default {
     },
     components: {
         TitlePage,
-        Separator
+        Separator,
+        OurProducts
     }
 }
 
@@ -19,4 +21,5 @@ export default {
 
 <template>
     <TitlePage :titlePage="'Prodotti'"></TitlePage>
+    <OurProducts></OurProducts>
 </template>

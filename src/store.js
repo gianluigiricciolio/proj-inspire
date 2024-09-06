@@ -48,16 +48,6 @@ export const store = reactive({
             role: 'Co-founder',
             img: 'https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/Mask-Group-146@2x-443x424.png'
         },
-        {
-            name: ' JIMMIE BENEDICT',
-            role: 'Frontend Developer',
-            img: 'https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/Mask-Group-150@2x-443x424.png'
-        },
-        {
-            name: ' JANET GARNER',
-            role: 'Founder',
-            img: 'https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/Mask-Group-145@2x-443x424.png'
-        },
     ],
     cardData: [
         {
