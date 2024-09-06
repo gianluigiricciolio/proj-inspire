@@ -186,4 +186,100 @@ export const store = reactive({
             info: "Monday-Friday 09.00-23.00, Sunday 09.00-16.00",
         },
     ],
+    items: [
+        {
+            id: "00",
+            name: "portabottiglie",
+            img_src: "blablabla",
+            dimension: "17,5 x 40",
+            colors: [
+                {
+                    id: "00",
+                    name: "blu",
+                    hexa: "#000000"
+                },
+                {
+                    id: "01",
+                    name: "rosso",
+                    hexa: "#000001"
+                },
+            ],
+            prints: [
+                {
+                    id: "00",
+                    name: "cars",
+                    img_src: "blablabla"
+                },
+            ]
+        },
+        {
+            id: "01",
+            name: "zainetti",
+            colors: [
+                {
+                    id: "00",
+                    name: "blu",
+                    hexa: "#000000"
+                },
+                {
+                    id: "01",
+                    name: "rosso",
+                    hexa: "#000001"
+                },
+            ],
+            prints: [
+                {
+                    id: "00",
+                    name: "cars",
+                    img_src: "blablabla"
+                },
+            ]
+        },
+        {
+            id: "02",
+            name: "zaini",
+            colors: [
+                {
+                    id: "00",
+                    name: "blu",
+                    hexa: "#000000"
+                },
+                {
+                    id: "01",
+                    name: "rosso",
+                    hexa: "#000001"
+                },
+            ],
+            prints: [
+                {
+                    id: "00",
+                    name: "cars",
+                    img_src: "blablabla"
+                },
+            ]
+        },
+        {
+            id: "03",
+            name: "megazaini",
+            colors: [
+                {
+                    id: "00",
+                    name: "blu",
+                    hexa: "#000000"
+                },
+                {
+                    id: "01",
+                    name: "rosso",
+                    hexa: "#000001"
+                },
+            ],
+            prints: [
+                {
+                    id: "00",
+                    name: "cars",
+                    img_src: "blablabla"
+                },
+            ]
+        },
+    ]
 });
