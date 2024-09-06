@@ -188,27 +188,38 @@ export const store = reactive({
     ],
     items: [
         {
-            id: "00",
-            name: "portabottiglie",
+            id: "PB-70_17,5_40",
+            name: "Portabottiglie",
             img_src: "blablabla",
             dimension: "17,5 x 40",
+            gsm: "70",
             colors: [
                 {
-                    id: "00",
-                    name: "blu",
+                    id: "BL",
+                    name: "Dark Blue",
                     hexa: "#000000"
                 },
                 {
-                    id: "01",
-                    name: "rosso",
+                    id: "BX",
+                    name: "Bordeaux",
+                    hexa: "#000001"
+                },
+                {
+                    id: "NR",
+                    name: "Nero",
                     hexa: "#000001"
                 },
             ],
             prints: [
                 {
-                    id: "00",
-                    name: "cars",
+                    id: "001",
+                    name: "bottle",
                     img_src: "blablabla"
+                },
+                {
+                    id: "000",
+                    name: "Senza disegno",
+                    img_src: ""
                 },
             ]
         },
