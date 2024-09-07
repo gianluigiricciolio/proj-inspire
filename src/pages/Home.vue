@@ -27,7 +27,7 @@ export default {
 
 <template>
   <!--jumbo-->
-  <section>
+  <section class="h-100">
     <HomeCarousel />
   </section>
 </template>

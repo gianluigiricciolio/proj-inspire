@@ -20,7 +20,7 @@ export default {
 .first-segment {
     width: 8px;
     height: 5px;
-    background: linear-gradient(90deg, rgba(153, 225, 94, 1) 0%, $secondary-color 100%);
+    background: linear-gradient(90deg, $tertiary-color 0%, $secondary-color 100%);
     border-radius: 5px;
     margin-right: 12px;
 }
@@ -28,7 +28,7 @@ export default {
 .second-segment {
     width: 45px;
     height: 5px;
-    background: linear-gradient(90deg, rgba(153, 225, 94, 1) 0%, $secondary-color 100%);
+    background: linear-gradient(90deg, $tertiary-color 0%, $secondary-color 100%);
     border-radius: 5px;
 }
 </style>
