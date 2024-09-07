@@ -53,10 +53,9 @@ export default {
 
             <div class="row ps-5 pb-5">
 
-                <div class="col position-relative">
+                <div class="col position-relative ms-2">
                     <div class="content mt-5">
 
-                        <p class="secondary-color">17 YEARS OF EXPERIENCE</p>
                         <h1 class="mb-5">
                             {{ slide.title }}
                         </h1>
@@ -68,39 +67,21 @@ export default {
                             large
                             language ocean.Separated they live in Bookmarksgrove.
                         </p>
-                        <div class="black-button">READ MORE</div>
-                        <ul class="list-group list-group-horizontal position-relative bottom-0 mb-3 mt-5">
-                            <li class="list-group-item"><a
-                                    class="link-dark link-offset-2 link-underline link-underline-opacity-0 fw-semibold"
-                                    href="#">Facebook</a></li>
-                            <li class="list-group-item"><a
-                                    class="link-dark link-offset-2 link-underline link-underline-opacity-0 fw-semibold"
-                                    href="#">Instagram</a></li>
-                            <li class="list-group-item"><a
-                                    class="link-dark link-offset-2 link-underline link-underline-opacity-0 fw-semibold"
-                                    href="#">Twitter</a></li>
-                            <li class="list-group-item"><a
-                                    class="link-dark link-offset-2 link-underline link-underline-opacity-0 fw-semibold"
-                                    href="#">Youtube</a></li>
-                        </ul>
-
-                        <div class="scroll-buttons d-flex gap-3 position-absolute bottom-0 end-0 mb-3">
-
-                            <button class="border-0 circle"
-                                @click="scrollCarouselPrev(index, store.carouselInfo)"><font-awesome-icon class="fs-4 m-2"
-                                    icon="fa-solid fa-caret-left" /></button>
-                            <button class="border-0 circle"
-                                @click="scrollCarouselNext(index, store.carouselInfo)"><font-awesome-icon class="fs-4 m-2"
-                                    icon="fa-solid fa-caret-right" /></button>
-
-                        </div>
 
                     </div>
 
                 </div>
-                <div class="col">
+                <div class="col me-2">
                     <div class="content position-relative">
-                        <img class="mt-5" :src="slide.imageUrl" :alt="slide.title">
+                        <img class="mt-3" :src="slide.imageUrl" :alt="slide.title">
+                        <button class="border-0 circle left-button"
+                            @click="scrollCarouselPrev(index, store.carouselInfo)"><font-awesome-icon class="fs-4 m-2"
+                                icon="fa-solid fa-caret-left" />
+                        </button>
+                        <button class="border-0 circle right-button"
+                            @click="scrollCarouselNext(index, store.carouselInfo)"><font-awesome-icon class="fs-4 m-2"
+                                icon="fa-solid fa-caret-right" />
+                        </button>
                     </div>
 
                 </div>
@@ -129,22 +110,13 @@ export default {
 
 .content {
 
-    p:first-of-type {
-        margin-top: 10rem;
-    }
-
     h1 {
         font-weight: 900;
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     p:last-of-type {
         width: 80%;
-    }
-
-    ul {
-        position: absolute;
-        bottom: 50px;
     }
 
     button:hover {
@@ -155,9 +127,21 @@ export default {
 
 img {
     position: absolute;
-    right: -230px;
+    right: 20px;
     border: 65px solid #D4D4D4;
-    width: 130%;
+    width: 100%;
     border-radius: 50%;
+}
+
+.left-button {
+    position: absolute;
+    top: 300px;
+    left: -700px;
+}
+
+.right-button {
+    position: absolute;
+    top: 300px;
+    left: 600px;
 }
 </style>

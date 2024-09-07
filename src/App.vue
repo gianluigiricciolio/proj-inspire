@@ -37,4 +37,9 @@ main {
   padding-top: 147.7px;
   height: 100vh;
 }
+
+footer {
+  position: relative;
+  z-index: 3;
+}
 </style>
