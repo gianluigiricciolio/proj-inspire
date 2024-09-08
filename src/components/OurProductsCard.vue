@@ -8,7 +8,7 @@ export default {
     computed: {
         setBgImg() {
             return {
-                '--background-image': `url(${this.item.img})`
+                '--background-image': `url(${this.item.img_src})`
             }
         }
     }
@@ -22,7 +22,8 @@ export default {
     <div class="card-image" :style="setBgImg">
         <div class="card-content">
             <div class="h3">{{ item.name }}</div>
-            <p>{{ item.dimension }}</p>
+            <p>{{ item.dimension }} cm</p>
+            <p>{{ item.gsm }} gsm</p>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Conson, there live the blind
                 texts. Separated they live in Bookmarksgrove right at the coast of the Semantics...
             </p>
