@@ -310,18 +310,90 @@ export const store = reactive({
                     img_src: ""
                 },
                 {
-                    id: "101",
-                    name: "Decollette Donna",
+                    id: "541",
+                    name: "Pallone e Scarpette",
                     img_src: "blablabla"
                 },
                 {
-                    id: "102",
-                    name: "Francesina Uomo",
+                    id: "711",
+                    name: "Formule Matematiche",
                     img_src: "blablabla"
                 },
                 {
-                    id: "103",
-                    name: "Snickers Ragazzo",
+                    id: "661",
+                    name: "Image Unisex",
+                    img_src: "blablabla"
+                },
+                {
+                    id: "661",
+                    name: "Image Unisex",
+                    img_src: "blablabla"
+                },
+                {
+                    id: "661",
+                    name: "Image Unisex",
+                    img_src: "blablabla"
+                },
+
+            ]
+        },
+        {
+            id: "ZGC-70_40_50",
+            name: "Zaino",
+            img_src: "blablabla",
+            dimension: "40 x 50",
+            gsm: "70",
+            colors: [
+                {
+                    id: "BL",
+                    name: "Dark Blue",
+                    hexa: "#000000"
+                },
+                {
+                    id: "BX",
+                    name: "Bordeaux",
+                    hexa: "#000001"
+                },
+                {
+                    id: "NR",
+                    name: "Nero",
+                    hexa: "#000001"
+                },
+                {
+                    id: "MR",
+                    name: "Marrone",
+                    hexa: "#000001"
+                },
+            ],
+            prints: [
+                {
+                    id: "000",
+                    name: "Senza disegno",
+                    img_src: ""
+                },
+                {
+                    id: "541",
+                    name: "Pallone e Scarpette",
+                    img_src: "blablabla"
+                },
+                {
+                    id: "711",
+                    name: "Formule Matematiche",
+                    img_src: "blablabla"
+                },
+                {
+                    id: "661",
+                    name: "Image Unisex",
+                    img_src: "blablabla"
+                },
+                {
+                    id: "661",
+                    name: "Image Unisex",
+                    img_src: "blablabla"
+                },
+                {
+                    id: "661",
+                    name: "Image Unisex",
                     img_src: "blablabla"
                 },
 

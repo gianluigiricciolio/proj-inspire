@@ -3,12 +3,12 @@
 export default {
     name: 'OurProductsCard',
 
-    props: ['card'],
+    props: ['item'],
 
     computed: {
         setBgImg() {
             return {
-                '--background-image': `url(${this.card.img})`
+                '--background-image': `url(${this.item.img})`
             }
         }
     }
@@ -21,8 +21,8 @@ export default {
 <template>
     <div class="card-image" :style="setBgImg">
         <div class="card-content">
-            <div class="h3">{{ card.name }}</div>
-            <p>{{ card.role }}</p>
+            <div class="h3">{{ item.name }}</div>
+            <p>{{ item.dimension }}</p>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Conson, there live the blind
                 texts. Separated they live in Bookmarksgrove right at the coast of the Semantics...
             </p>
