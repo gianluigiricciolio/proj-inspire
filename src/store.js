@@ -224,73 +224,109 @@ export const store = reactive({
             ]
         },
         {
-            id: "01",
-            name: "zainetti",
+            id: "SC-60_30_40",
+            name: "Sacchetto",
+            img_src: "blablabla",
+            dimension: "30 x 40",
+            gsm: "60",
             colors: [
                 {
-                    id: "00",
-                    name: "blu",
+                    id: "BL",
+                    name: "Dark Blue",
                     hexa: "#000000"
                 },
                 {
-                    id: "01",
-                    name: "rosso",
+                    id: "BX",
+                    name: "Bordeaux",
+                    hexa: "#000001"
+                },
+                {
+                    id: "NR",
+                    name: "Nero",
+                    hexa: "#000001"
+                },
+                {
+                    id: "MR",
+                    name: "Marrone",
                     hexa: "#000001"
                 },
             ],
             prints: [
                 {
-                    id: "00",
-                    name: "cars",
+                    id: "000",
+                    name: "Senza disegno",
+                    img_src: ""
+                },
+                {
+                    id: "101",
+                    name: "Decollette Donna",
                     img_src: "blablabla"
                 },
+                {
+                    id: "102",
+                    name: "Francesina Uomo",
+                    img_src: "blablabla"
+                },
+                {
+                    id: "103",
+                    name: "Snickers Ragazzo",
+                    img_src: "blablabla"
+                },
+
             ]
         },
         {
-            id: "02",
-            name: "zaini",
+            id: "ZPC-60_30_40",
+            name: "Zainetto",
+            img_src: "blablabla",
+            dimension: "30 x 40",
+            gsm: "60",
             colors: [
                 {
-                    id: "00",
-                    name: "blu",
+                    id: "BL",
+                    name: "Dark Blue",
                     hexa: "#000000"
                 },
                 {
-                    id: "01",
-                    name: "rosso",
+                    id: "BX",
+                    name: "Bordeaux",
+                    hexa: "#000001"
+                },
+                {
+                    id: "NR",
+                    name: "Nero",
+                    hexa: "#000001"
+                },
+                {
+                    id: "MR",
+                    name: "Marrone",
                     hexa: "#000001"
                 },
             ],
             prints: [
                 {
-                    id: "00",
-                    name: "cars",
+                    id: "000",
+                    name: "Senza disegno",
+                    img_src: ""
+                },
+                {
+                    id: "101",
+                    name: "Decollette Donna",
                     img_src: "blablabla"
                 },
-            ]
-        },
-        {
-            id: "03",
-            name: "megazaini",
-            colors: [
                 {
-                    id: "00",
-                    name: "blu",
-                    hexa: "#000000"
-                },
-                {
-                    id: "01",
-                    name: "rosso",
-                    hexa: "#000001"
-                },
-            ],
-            prints: [
-                {
-                    id: "00",
-                    name: "cars",
+                    id: "102",
+                    name: "Francesina Uomo",
                     img_src: "blablabla"
                 },
+                {
+                    id: "103",
+                    name: "Snickers Ragazzo",
+                    img_src: "blablabla"
+                },
+
             ]
         },
+
     ]
 });
