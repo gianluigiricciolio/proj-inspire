@@ -50,13 +50,14 @@ export default {
 
     &:hover .card-content {
         display: block;
-        background: rgb(153, 225, 94);
-        background: linear-gradient(225deg, rgba(153, 225, 94, 0.95) 0%, rgba(0, 217, 166, 0.95) 100%);
+        background: rgb(16, 92, 147);
+        background: linear-gradient(225deg, rgba(16, 92, 147, 0.9) 0%, rgba(83, 140, 162, 0.9) 100%);
     }
 
     .card-content {
+        cursor: pointer;
         display: none;
-        padding: 70px 50px;
+        padding: 30px;
         border-radius: 10px;
         color: white;
         position: absolute;
