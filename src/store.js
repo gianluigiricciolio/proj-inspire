@@ -557,147 +557,147 @@ export const store = reactive({
                 },
             ]
         },
-        {
-            id: "ZGB-70_40_50",
-            name: "Zaino Borchie",
-            img_src: "./src/assets/img/items/ZGB-70_40_50/zaino-borchie-blu.png",
-            dimension: "40 x 50",
-            gsm: "70",
-            colors: [
-                {
-                    id: "BL",
-                    name: "Dark Blue",
-                    hexa: "#000000"
-                },
-                {
-                    id: "BX",
-                    name: "Bordeaux",
-                    hexa: "#000001"
-                },
-                {
-                    id: "NR",
-                    name: "Nero",
-                    hexa: "#000001"
-                },
-                {
-                    id: "MR",
-                    name: "Marrone",
-                    hexa: "#000001"
-                },
-            ],
-            prints: [
-                {
-                    id: "000",
-                    name: "Senza disegno",
-                    img_src: ""
-                },
-                {
-                    id: "501",
-                    name: "Sport Running Gym",
-                    img_src: ""
-                },
-                {
-                    id: "502",
-                    name: "Sport Running Gym Orange",
-                    img_src: ""
-                },
-                {
-                    id: "521",
-                    name: "Bikers Cerchio",
-                    img_src: ""
-                },
-                {
-                    id: "541",
-                    name: "Pallone e Scarpette",
-                    img_src: "blablabla"
-                },
-                {
-                    id: "581",
-                    name: "Tennis e Padel",
-                    img_src: "blablabla"
-                },
-                {
-                    id: "582",
-                    name: "Tennis e Padel Orange",
-                    img_src: "blablabla"
-                },
-                {
-                    id: "601",
-                    name: "Topolino con Stella",
-                    img_src: "blablabla"
-                },
-                {
-                    id: "611",
-                    name: "Topolino in Barca",
-                    img_src: "blablabla"
-                },
-                {
-                    id: "621",
-                    name: "Minnie con Stella",
-                    img_src: "blablabla"
-                },
-                {
-                    id: "641",
-                    name: "Topolino e Minnie nel Cuore",
-                    img_src: "blablabla"
-                },
-                {
-                    id: "661",
-                    name: "Image Unisex",
-                    img_src: "blablabla"
-                },
-                {
-                    id: "671",
-                    name: "Play e Libri Orange",
-                    img_src: "blablabla"
-                },
-                {
-                    id: "672",
-                    name: "Play e Libri",
-                    img_src: "blablabla"
-                },
-                {
-                    id: "701",
-                    name: "Cartolina Napoli Naif",
-                    img_src: "blablabla"
-                },
-                {
-                    id: "711",
-                    name: "Formule Matematiche",
-                    img_src: "blablabla"
-                },
-                {
-                    id: "721",
-                    name: "Lettera a mano con Timbri",
-                    img_src: "blablabla"
-                },
-                {
-                    id: "722",
-                    name: "Lettera a mano con Timbri Black",
-                    img_src: "blablabla"
-                },
-                {
-                    id: "731",
-                    name: "Francobolli Misti",
-                    img_src: "blablabla"
-                },
-                {
-                    id: "741",
-                    name: "Pupazzetti",
-                    img_src: "blablabla"
-                },
-                {
-                    id: "751",
-                    name: "Paris disegno Eiffel e Palazzo",
-                    img_src: "blablabla"
-                },
-                {
-                    id: "761",
-                    name: "New York Astratto",
-                    img_src: "blablabla"
-                },
-            ]
-        },
+        /*    {
+                id: "ZGB-70_40_50",
+                name: "Zaino Borchie",
+                img_src: "./src/assets/img/items/ZGB-70_40_50/zaino-borchie-blu.png",
+                dimension: "40 x 50",
+                gsm: "70",
+                colors: [
+                    {
+                        id: "BL",
+                        name: "Dark Blue",
+                        hexa: "#000000"
+                    },
+                    {
+                        id: "BX",
+                        name: "Bordeaux",
+                        hexa: "#000001"
+                    },
+                    {
+                        id: "NR",
+                        name: "Nero",
+                        hexa: "#000001"
+                    },
+                    {
+                        id: "MR",
+                        name: "Marrone",
+                        hexa: "#000001"
+                    },
+                ],
+                prints: [
+                    {
+                        id: "000",
+                        name: "Senza disegno",
+                        img_src: ""
+                    },
+                    {
+                        id: "501",
+                        name: "Sport Running Gym",
+                        img_src: ""
+                    },
+                    {
+                        id: "502",
+                        name: "Sport Running Gym Orange",
+                        img_src: ""
+                    },
+                    {
+                        id: "521",
+                        name: "Bikers Cerchio",
+                        img_src: ""
+                    },
+                    {
+                        id: "541",
+                        name: "Pallone e Scarpette",
+                        img_src: "blablabla"
+                    },
+                    {
+                        id: "581",
+                        name: "Tennis e Padel",
+                        img_src: "blablabla"
+                    },
+                    {
+                        id: "582",
+                        name: "Tennis e Padel Orange",
+                        img_src: "blablabla"
+                    },
+                    {
+                        id: "601",
+                        name: "Topolino con Stella",
+                        img_src: "blablabla"
+                    },
+                    {
+                        id: "611",
+                        name: "Topolino in Barca",
+                        img_src: "blablabla"
+                    },
+                    {
+                        id: "621",
+                        name: "Minnie con Stella",
+                        img_src: "blablabla"
+                    },
+                    {
+                        id: "641",
+                        name: "Topolino e Minnie nel Cuore",
+                        img_src: "blablabla"
+                    },
+                    {
+                        id: "661",
+                        name: "Image Unisex",
+                        img_src: "blablabla"
+                    },
+                    {
+                        id: "671",
+                        name: "Play e Libri Orange",
+                        img_src: "blablabla"
+                    },
+                    {
+                        id: "672",
+                        name: "Play e Libri",
+                        img_src: "blablabla"
+                    },
+                    {
+                        id: "701",
+                        name: "Cartolina Napoli Naif",
+                        img_src: "blablabla"
+                    },
+                    {
+                        id: "711",
+                        name: "Formule Matematiche",
+                        img_src: "blablabla"
+                    },
+                    {
+                        id: "721",
+                        name: "Lettera a mano con Timbri",
+                        img_src: "blablabla"
+                    },
+                    {
+                        id: "722",
+                        name: "Lettera a mano con Timbri Black",
+                        img_src: "blablabla"
+                    },
+                    {
+                        id: "731",
+                        name: "Francobolli Misti",
+                        img_src: "blablabla"
+                    },
+                    {
+                        id: "741",
+                        name: "Pupazzetti",
+                        img_src: "blablabla"
+                    },
+                    {
+                        id: "751",
+                        name: "Paris disegno Eiffel e Palazzo",
+                        img_src: "blablabla"
+                    },
+                    {
+                        id: "761",
+                        name: "New York Astratto",
+                        img_src: "blablabla"
+                    },
+                ]
+            }, */
 
     ]
 });

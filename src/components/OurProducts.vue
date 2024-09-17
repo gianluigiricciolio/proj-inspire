@@ -12,8 +12,8 @@ export default {
 </script>
 
 <template>
-    <div class="main-container">
-        <div class="container d-flex flex-column gap-5 align-items-center">
+    <div class="main-container d-flex align-items-center">
+        <div class="container d-flex flex-column gap-5">
             <OurProductsCardList></OurProductsCardList>
         </div>
     </div>
@@ -22,6 +22,6 @@ export default {
 <style scoped>
 .main-container {
     background-color: white;
-    padding: 200px 0;
+    height: 100%;
 }
 </style>
