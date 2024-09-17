@@ -190,7 +190,7 @@ export const store = reactive({
         {
             id: "PB-70_17,5_40",
             name: "Portabottiglie",
-            img_src: "blablabla",
+            img_src: "src/assets/img/items/PB-70_17,5_40/porta-bottiglie-blu.png",
             dimension: "17,5 x 40",
             gsm: "70",
             colors: [
@@ -226,7 +226,7 @@ export const store = reactive({
         {
             id: "SC-60_30_40",
             name: "Sacchetto",
-            img_src: "blablabla",
+            img_src: "src/assets/img/items/SC-60_30_40/sacca-portascarpe-blu.png",
             dimension: "30 x 40",
             gsm: "60",
             colors: [
@@ -278,7 +278,7 @@ export const store = reactive({
         {
             id: "ZPC-60_30_40",
             name: "Zainetto",
-            img_src: "blablabla",
+            img_src: "./src/assets/img/items/ZPC-60_30_40/zainetto-blu.png",
             dimension: "30 x 40",
             gsm: "60",
             colors: [
@@ -419,7 +419,7 @@ export const store = reactive({
         {
             id: "ZGC-70_40_50",
             name: "Zaino Cinture",
-            img_src: "blablabla",
+            img_src: "./src/assets/img/items/ZGC-70_40_50/zaino-passanti-blu.png",
             dimension: "40 x 50",
             gsm: "70",
             colors: [
@@ -560,7 +560,7 @@ export const store = reactive({
         {
             id: "ZGB-70_40_50",
             name: "Zaino Borchie",
-            img_src: "blablabla",
+            img_src: "./src/assets/img/items/ZGB-70_40_50/zaino-borchie-blu.png",
             dimension: "40 x 50",
             gsm: "70",
             colors: [

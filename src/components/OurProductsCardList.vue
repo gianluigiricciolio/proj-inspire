@@ -18,7 +18,7 @@ export default {
 
 <template>
     <div class="container">
-        <div class="row row-cols-2 g-3">
+        <div class="row row-cols-5 g-3">
             <div class="col" v-for="item in store.items">
                 <OurProductsCard :item="item"></OurProductsCard>
             </div>

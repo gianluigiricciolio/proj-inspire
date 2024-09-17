@@ -44,7 +44,8 @@ export default {
     padding-top: 100%;
     position: relative;
     background-image: var(--background-image);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
 
     &:hover .card-content {
