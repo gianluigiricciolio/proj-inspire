@@ -22,6 +22,6 @@ export default {
 <style scoped>
 .main-container {
     background-color: white;
-    height: 100%;
+    margin-top: 120px;
 }
 </style>
