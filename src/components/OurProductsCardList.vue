@@ -20,7 +20,9 @@ export default {
     <div class="container">
         <div class="row row-cols-4 g-3">
             <div class="col" v-for="item in store.items">
-                <OurProductsCard :item="item"></OurProductsCard>
+                <router-link :to="{ name: 'dettagli' }">
+                    <OurProductsCard :item="item"></OurProductsCard>
+                </router-link>
             </div>
         </div>
     </div>

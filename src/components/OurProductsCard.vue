@@ -51,7 +51,7 @@ export default {
     &:hover .card-content {
         display: block;
         background: rgb(16, 92, 147);
-        background: linear-gradient(225deg, rgba(16, 92, 147, 0.9) 0%, rgba(83, 140, 162, 0.9) 100%);
+        background: linear-gradient(225deg, rgba(16, 92, 147, 0.8) 0%, rgba(83, 140, 162, 0.8) 100%);
     }
 
     .card-content {
