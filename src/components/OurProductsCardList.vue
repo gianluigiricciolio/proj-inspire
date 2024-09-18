@@ -19,9 +19,9 @@ export default {
 <template>
     <div class="container">
         <div class="row row-cols-4 g-3">
-            <div class="col" v-for="item in store.items">
-                <router-link :to="{ name: 'dettagli' }">
-                    <OurProductsCard :item="item"></OurProductsCard>
+            <div class="col" v-for="(item, i)  in store.items">
+                <router-link :to="{ name: 'dettagli', params: { id: item.id } }">
+                    <OurProductsCard @click="store.selectedItem = i" :item="item"></OurProductsCard>
                 </router-link>
             </div>
         </div>
