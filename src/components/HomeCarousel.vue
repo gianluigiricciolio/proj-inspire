@@ -72,7 +72,7 @@ export default {
                 </div>
             </div>
             <div class="col-5">
-                <div class="content">
+                <div class="content mt-3">
                     <img class="mt-3" :src="slide.imageUrl" :alt="slide.title">
                 </div>
 

@@ -35,7 +35,7 @@ export default {
 <style scoped>
 main {
   padding-top: 147.7px;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 footer {
