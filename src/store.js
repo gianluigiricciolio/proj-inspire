@@ -1,7 +1,7 @@
 import { reactive } from "vue"
 
 export const store = reactive({
-    selectedItem: "",
+    selectedItem: 0,
     partners: [
         {
             name: 'Avantagarde',

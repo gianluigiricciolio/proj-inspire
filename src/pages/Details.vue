@@ -28,7 +28,47 @@ export default {
 
 <template>
     <TitlePage :titlePage="'Scheda Tecnica'"></TitlePage>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="item d-flex flex-column align-items-center">
+                    <h2>{{ currentItem.name }}</h2>
+                    <p>{{ currentItem.dimension }}</p>
+                </div>
+            </div>
+            <div class="col-7">
+                <div class="description">
+                    descrizione
+                    <p>
+                        {{ currentItem.gsm }} gsm
+                    </p>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="image d-flex justify-content-center">
+                    <img src="../../src/assets/img/items/ZGC-70_40_50/zaino-passanti-blu.png" alt="">
+                </div>
+            </div>
+        </div>
 
-    <h1>{{ currentItem.name }}</h1>
-    <p>{{ currentItem.dimension }}</p>
+    </div>
 </template>
+
+<style lang="scss">
+.item {
+    margin-top: 30px;
+}
+
+.description {
+    background-color: yellow;
+}
+
+.image {
+    background-color: cadetblue;
+
+    img {
+        max-width: 60%;
+
+    }
+}
+</style>

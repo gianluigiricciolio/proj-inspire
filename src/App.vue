@@ -24,7 +24,7 @@ export default {
   <header>
     <HeaderApp />
   </header>
-  <main>
+  <main v-cloak>
     <router-view></router-view>
   </main>
   <footer>
